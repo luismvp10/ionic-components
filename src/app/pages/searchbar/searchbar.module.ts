@@ -8,6 +8,7 @@ import {SearchbarPageRoutingModule} from './searchbar-routing.module';
 
 import {SearchbarPage} from './searchbar.page';
 import {PipesModule} from '../../pipes/pipes.module';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
     imports: [
@@ -17,7 +18,8 @@ import {PipesModule} from '../../pipes/pipes.module';
         SearchbarPageRoutingModule,
         PipesModule
     ],
-    declarations: [SearchbarPage]
+    declarations: [SearchbarPage],
+
 })
 export class SearchbarPageModule {
 }

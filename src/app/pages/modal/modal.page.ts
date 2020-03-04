@@ -24,6 +24,7 @@ export class ModalPage implements OnInit {
    await modal.present();
 
    const  { data } = await modal.onDidDismiss();
-   console.log('Retorno del modal', data);
+   console.log('Retorno del modal');
+   console.log( JSON.stringify(data));
   }
 }

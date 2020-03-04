@@ -4,10 +4,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { TabsPage } from './tabs.page';
 
 const routes: Routes = [
-  {
-    path: '',
-    redirectTo: 'contact'
-  },
+  // {
+  //   path: '',
+  //   redirectTo: 'contact'
+  // },
   {
     path: '',
     component: TabsPage,
@@ -25,7 +25,8 @@ const routes: Routes = [
         loadChildren: '../infinite-scroll/infinite-scroll.module#InfiniteScrollPageModule'
       }
     ]
-  }
+  },
+
 
 ];
 @NgModule({
